@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+  width:7px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #d5d5d5;
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #daa859;
+  border-radius: 10px;
+}
+.scrollbar {
+  scrollbar-width: thin; 
+  scrollbar-color: #888 #f1f1f1;
+}
+
+
+.custom-swiper .swiper-button-prev,
+.custom-swiper .swiper-button-next {
+  --swiper-navigation-size:24px;
+  color: #000000; 
+}
+.custom-swiper .swiper-pagination-bullet {
+  margin:100px;
+  background-color: #000000; 
+}
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: #000000; 
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
