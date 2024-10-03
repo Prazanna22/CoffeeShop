@@ -15,23 +15,28 @@ export const Footer = () => {
                     </div>
                     <div className="py-5">
                         <h2 className='my-5 cursor-pointer text-lg font-bold '>Responsibility</h2>
+                        <p className='my-5 cursor-pointer'>Environmental Stewardship</p>
+                        <p className='my-5 cursor-pointer'>Ethical Sourcing</p>
                         <p className='my-5 cursor-pointer'>Diversity</p>
                         <p className='my-5 cursor-pointer'>Community</p>
-                        <p className='my-5 cursor-pointer'>Ethical Sourcing</p>
-                        <p className='my-5 cursor-pointer'>Environmental Stewardship</p>
                         <p className='my-5 cursor-pointer'>Learn More</p>
                     </div>
-                    <div className="py-5">
+                    <div className="py-5 ">
                         <h2 className='my-5 cursor-pointer text-lg font-bold '>Quick Links</h2>
-                        <p className='my-5 cursor-pointer'>FAQs</p>
-                        <p className='my-5 cursor-pointer'>Terms and Conditions</p>
-                        <p className='my-5 cursor-pointer'>Starbucks India Mobile App Terms of Use </p>
-                        <p className='my-5 cursor-pointer'>Customer Service</p>
-                        <p className='my-5 cursor-pointer'>Starbucks Rewards Day Offer</p>
-                        <p className='my-5 cursor-pointer'>Delivery</p>
-                        <p className='my-5 cursor-pointer'>Season's Gifting</p>
-                        <p className='my-5 cursor-pointer'>Offer for Beverage Subscription at Starbucks.</p>
+                        <p className='my-5 cursor-pointer'>Durzan India Mobile App Terms of Use </p>
+                        <p className='my-5 cursor-pointer'>Offer for Beverage Subscription at Durzan.</p>
+                        <p className='my-5 cursor-pointer'>Durzan Rewards Day Offer</p>
                         <p className='my-5 cursor-pointer'>Beverage Subscription</p>
+                        
+                        <p className='my-5 cursor-pointer'>Terms and Conditions</p>
+                        
+                        <p className='my-5 cursor-pointer'>Customer Service</p>
+                        <p className='my-5 cursor-pointer'>Season's Gifting</p>
+                        <p className='my-5 cursor-pointer'>Delivery</p>
+                  
+                        <p className='my-5 cursor-pointer'>FAQs</p>
+                        
+                       
 
                     </div>
                 </div>
@@ -46,7 +51,7 @@ export const Footer = () => {
                         <p className='mx-1 lg:mx-5 text-xs'>|</p>
                         <p className='mx-1  lg:mx-5 text-xs'>Contact Us</p>
                     </div>
-                    <div className='mx-3 md:mx-5 text-xs py-5 md:my-0 flex cursor-pointer justify-center'><p>© 2024 Starbucks Coffee Company. All rights reserved.</p></div>
+                    <div className='mx-3 md:mx-5 text-xs py-5 md:my-0 flex cursor-pointer justify-center'><p>© 2024 Durzan Coffee Company. All rights reserved.</p></div>
                 </div>
             </div>
         </>
