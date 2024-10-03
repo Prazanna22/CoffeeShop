@@ -21,6 +21,7 @@ export const Order = ({ Product }) => {
 
     const handleClickProduct = (product) => {
         setSelectedProduct(product);
+        
     }
 
     const closeProduct = () => {

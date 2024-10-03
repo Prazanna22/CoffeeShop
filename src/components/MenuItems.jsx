@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Product } from '../Products/Product';
 import { Order } from './Order';
 
@@ -13,6 +13,11 @@ export const MenuItems = () => {
         ? Product
         : Product.filter(product => product.slug === selectedCategory);
     
+
+        useEffect(()=>{
+            window.scrollTo({top:0, behavior: 'smooth'});
+        },[selectedCategory]);
+        
     return (
       <div className=" ">
           <div className=" bg-[#daa859] px-20 py-7 text-white">
