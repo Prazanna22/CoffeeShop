@@ -13,7 +13,7 @@ export default ({ Product }) => {
   return (<>
     
     <div className=" px-10 md:px-20  bg-[#ededed89] py-10  ">
-    <h1 className='font-bold text-[#a7782b] text-3xl mb-5 '>Recent Launches!</h1>
+    <h1 className='font-bold text-[#a7782b] md:text-3xl mb-5 text-lg text-center md:text-left '>Recent Launches!</h1>
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         slidesPerView={1}
@@ -41,7 +41,7 @@ export default ({ Product }) => {
                   </div>
                   <div className='w-full md:w-2/3'>
                     <img src={product.veg} alt="veg status" className='w-6 h-6' />
-                    <h1 className='font-semibold text-md lg:text-lg truncate my-2'>{product.name}</h1>
+                    <h1 className='font-medium text-md lg:text-md truncate my-2'>{product.name}</h1>
                     <div className='flex justify-between  mt-5'>
                       <p className='font-medium text-md '>₹{product.price}</p>
                       <button className='py-1 px-2 md:px-4 text-sm font-semibold text-white bg-[#b2cd67] rounded-full' onClick={() => { navigate("/menu") }}>View Item</button>

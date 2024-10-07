@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
-export const Order = ({ Product }) => {
+export const Order = ({ Product,category }) => {
     const { addToCart } = useCart();
     const [addedItems, setAddedItems] = useState({});
     const [selectedProduct, setSelectedProduct] = useState(null);
@@ -31,10 +31,13 @@ export const Order = ({ Product }) => {
 
     return (
         <>
-            <div className={`px-10  lg:px-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 items-center bg-[#ffffff] py-10 ${selectedProduct ? "blur-sm" : ""}`} >
+        <div className="px-10 lg:px-20 font-normal  text-sm text-left  py-10">{`Order > ${category}`}</div>
+            <div className={`px-10  lg:px-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 items-center bg-[#ffffff]  ${selectedProduct ? "blur-sm" : ""}`} >
+                
                 {Product.map(product => (
                     <div className="bg-[#f2f2f287] rounded-lg hover:bg-white hover:shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] transition-all duration-300 ease-in-out"
                         key={product.id}  >
+                            
                         <div className="flex p-5 h-full  flex-col" >
                             <div className=" flex ">
                                 <div className="w-1/3">

@@ -23,7 +23,7 @@ export const Home = () => {
       </div>
 
       <div className="discover">
-        <div className='px-10 md:px-20 py-10 text-[29px] text-center sm:text-[64px] md:text-[64px] lg:text-[96px] xl:text-[135px]'>
+        <div className='px-10 md:px-20 py-5 text-[61px] text-center sm:text-[125px] md:text-[130px] lg:text-[190px] xl:text-[135px]'>
           <h1>discover the real</h1>
         </div>
       </div>
@@ -34,7 +34,7 @@ export const Home = () => {
             <img src={kk} alt="" className='w-96  rounded-t-full md:rounded-t-none md:rounded-b-full' />
           </div>
           <div className=" md:w-2/3 ">
-            <h1 className='lg:text-3xl leading-[1.5] font-bold text-[#a7782b] text-3xl  my-3  '>Our Story</h1>
+            <h1 className='lg:text-3xl leading-[1.5] font-bold text-[#a7782b]  md:text-3xl mb-5 text-lg  my-3  '>Our Story</h1>
             <p className=' text-sm leading-[2] lg:text-lg text-justify  font-normal my-5 lg:leading-[2.5]'>Since 1987, we have been serving our customers with a simple motto: <br /><span className='lg:text-3xl font-bold text-[#b2cd67] text-xl'>"You deserve more than the average café." </span> <br />Whether you're enjoying breakfast or happy hour, we always guarantee a cozy and friendly ambiance, excellent customer service, quality food, and beverages all day. We encourage breakfast for dinner and mimosas all weekend long.
               We've quickly become a local favorite with our fantastic coffee, juices, smoothies, salads, sandwiches, pasta, wine, beers, and more! We are open seven days a week and have become the it place for your weekend brunch. We focus on finding gourmet ingredients, carefully curated and fresh. These ingredients make every item on our menu taste fresh and flavorful.  </p>
             <button className='px-5 py-2 bg-[#daa859] text-white rounded-full ' onClick={() => { navigate('/promotion') }}>Know More</button>
