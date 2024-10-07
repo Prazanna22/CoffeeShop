@@ -5,16 +5,16 @@ export const Footer = () => {
         <>
             {/* career */}
             <div className=" px-10 md:px-20 bg-[#ebebeb] mt-10 text-black">
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 text-sm font-normal text-center sm:text-left">
-                    <div className="flex justify-center md:block "><img src={logo3} alt="" className='w-40 my-3' /></div>
-                    <div className="py-5 ">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 text-sm font-normal text-left sm:text-left">
+                    <div className="flex justify-start md:justify-center md:block "><img src={logo3} alt="" className='w-40 my-5' /></div>
+                    <div className="py-5 px-3 ">
                         <p className='my-5 cursor-pointer text-lg font-bold '>About US</p>
                         <p className='my-5 cursor-pointer'>Our Heritage</p>
                        
                         <p className='my-5 cursor-pointer'>Our Company</p>
                         <p className='my-5 cursor-pointer'>Coffeehouse</p>
                     </div>
-                    <div className="py-5">
+                    <div className="py-5 px-3">
                         <h2 className='my-5 cursor-pointer text-lg font-bold '>Responsibility</h2>
                         <p className='my-5 cursor-pointer'>Environmental Stewardship</p>
                         <p className='my-5 cursor-pointer'>Ethical Sourcing</p>
@@ -23,7 +23,7 @@ export const Footer = () => {
                         <p className='my-5 cursor-pointer'>Diversity</p>
                         
                     </div>
-                    <div className="py-5 ">
+                    <div className="py-5 px-3">
                         <h2 className='my-5 cursor-pointer text-lg font-bold '>Quick Links</h2>
                         <p className='my-5 cursor-pointer'>Offer for Beverage Subscription at Durzan.</p>
                         <p className='my-5 cursor-pointer'>Durzan India Mobile App Terms of Use </p>
