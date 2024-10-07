@@ -39,7 +39,7 @@ export const Product = [
         image: b,
         name: "Cookie Creme Latte",
         price: 435,
-        discription:"Handcrafted espresso from the world's top 3% Arabica with steamed milk, hints of vanilla, and decadent java chip. Topped with an overload of whipped vanilla topping, mocha dust, crunchy cookie crumbs, and swirls of mocha sauce. The perfect indulgent treat.",
+        discription:"Handcrafted espresso from the world's top 3% Arabica with steamed milk, hints of vanilla, and decadent java chip. Topped with an overload of whipped vanilla topping, crunchy cookie crumbs. The perfect indulgent treat.",
         veg: veg,
         kcal: "SHORT(237 mL) .344 Kcal",
         slug: "Drink"
@@ -50,7 +50,7 @@ export const Product = [
         name: "Pumpkin Spice Latte",
         price: 430,
         veg: veg,
-        discription:"Our signature Pumpkin Spice Latte is back – combining handcrafted espresso from the world's top 3% Arabica, steamed milk flavored with pumpkin spice, topped with whipped vanilla topping, and dusted with pumpkin spice mix to perfectly capture the essence of fall.",
+        discription:"Our signature Pumpkin Spice Latte is back – combining handcrafted espresso from the world's top 3% Arabica, steamed milk flavored with pumpkin spice and dusted with pumpkin spice mix to perfectly capture the essence of fall.",
         kcal: "SHORT(Short Stardust Macchiato) .",
         slug: "Drink"
     },
@@ -100,7 +100,7 @@ export const Product = [
         name: "Caffè Mocha",
         price: 341,
         veg: veg,
-        discription:"We combine our Rich in flavour, full-bodied espresso with bittersweet mocha sauce and steamed milk. The classic coffee Drink to satisfy your sweet tooth. Hot - Short (237ml) - 232 kcal / Tall (354ml) - 335.7 kcal / Grande (473ml) - 391.1 kcal / Venti (591ml) 472.7 kcal Allergen - Contains Milk An average active adult requires 2000 kcal energy per day, however, calorie needs may vary.",
+        discription:"We combine our Rich in flavour, full-bodied espresso with bittersweet mocha sauce and steamed milk- Contains Milk An average active adult requires 2000 kcal energy per day, however, calorie needs may vary.",
         kcal: "SHORT(237 ML) .232 kcal",
         slug: "Drink"
     },

@@ -10,34 +10,30 @@ export const Footer = () => {
                     <div className="py-5 ">
                         <p className='my-5 cursor-pointer text-lg font-bold '>About US</p>
                         <p className='my-5 cursor-pointer'>Our Heritage</p>
-                        <p className='my-5 cursor-pointer'>Coffeehouse</p>
+                       
                         <p className='my-5 cursor-pointer'>Our Company</p>
+                        <p className='my-5 cursor-pointer'>Coffeehouse</p>
                     </div>
                     <div className="py-5">
                         <h2 className='my-5 cursor-pointer text-lg font-bold '>Responsibility</h2>
                         <p className='my-5 cursor-pointer'>Environmental Stewardship</p>
                         <p className='my-5 cursor-pointer'>Ethical Sourcing</p>
-                        <p className='my-5 cursor-pointer'>Diversity</p>
+                        
                         <p className='my-5 cursor-pointer'>Community</p>
-                        <p className='my-5 cursor-pointer'>Learn More</p>
+                        <p className='my-5 cursor-pointer'>Diversity</p>
+                        
                     </div>
                     <div className="py-5 ">
                         <h2 className='my-5 cursor-pointer text-lg font-bold '>Quick Links</h2>
-                        <p className='my-5 cursor-pointer'>Durzan India Mobile App Terms of Use </p>
                         <p className='my-5 cursor-pointer'>Offer for Beverage Subscription at Durzan.</p>
+                        <p className='my-5 cursor-pointer'>Durzan India Mobile App Terms of Use </p>
                         <p className='my-5 cursor-pointer'>Durzan Rewards Day Offer</p>
-                        <p className='my-5 cursor-pointer'>Beverage Subscription</p>
-                        
+                        <p className='my-5 cursor-pointer'>Beverage Subscription</p>         
                         <p className='my-5 cursor-pointer'>Terms and Conditions</p>
-                        
                         <p className='my-5 cursor-pointer'>Customer Service</p>
                         <p className='my-5 cursor-pointer'>Season's Gifting</p>
                         <p className='my-5 cursor-pointer'>Delivery</p>
-                  
                         <p className='my-5 cursor-pointer'>FAQs</p>
-                        
-                       
-
                     </div>
                 </div>
                 <div className="bg-black p-[0.5px]"></div>

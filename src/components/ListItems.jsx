@@ -10,8 +10,8 @@ export const ListItems = () => {
 
     return (
         <>
-            <div className="px-10 md:px-20">
-                <h1 className='font-bold text-[#a7782b] text-3xl text-center my-10'>Handcrafted Curations</h1>
+            <div className="px-10 md:px-20 lg:py-10">
+                <h1 className='font-bold text-[#a7782b] text-3xl  my-10'>Handcrafted Curations</h1>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
                     <div className="flex flex-col justify-center items-center">
                         <img src={java} alt="" className='w-32 my-5 rounded-full ' onClick={() => { navigate('/menu') }} />

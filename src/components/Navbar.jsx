@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import shoppingcart from '../assets/other/shopping-cart.png';
 import avatar from '../assets/other/avatar.png';
 import logo3 from '../assets/other/logo3.png';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggle = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+    const navigate = useNavigate();
 
     return (
         <>
@@ -16,7 +17,7 @@ export const Navbar = () => {
                 <div className="px-2 sm:px-10 lg:px-20 flex justify-between items-center py-2 ">
 
                     <div className="hidden sm:flex items-center gap-12">
-                        <img src={logo3} alt="Website Logo" className='w-16 md:w-16' />
+                        <img src={logo3} alt="Website Logo" className='w-16 md:w-16'  onClick={()=>{navigate('/')}}/>
                         <ul className="flex gap-12">
                             <li><NavLink to="/" className={({ isActive }) =>
                                 `relative pb-2 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-full after:bg-black after:transform after:scale-x-0 after:origin-left after:transition-transform after:duration-300 ${isActive ? 'after:scale-x-100' : ''}`}>Home</NavLink>
@@ -38,7 +39,7 @@ export const Navbar = () => {
                     </div>
 
                     <div className="sm:hidden flex items-center justify-between w-full">
-                        <img src={logo3} alt="Website Logo" className='w-16 md:w-24' />
+                        <img src={logo3} alt="Website Logo" className='w-16 md:w-24' onClick={()=>{navigate('/'),setIsMenuOpen(false)}} />
                         <div className="flex gap-6">
                             <NavLink to="/cart" ><img src={shoppingcart} alt="Shopping Cart" className='w-6 md:w-10' /></NavLink>
                             <button onClick={toggle} className="focus:outline-none">
