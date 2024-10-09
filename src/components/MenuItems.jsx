@@ -20,7 +20,7 @@ export const MenuItems = () => {
         
     return (
       <div className=" ">
-          <div className=" bg-[#daa859] px-20 py-7 text-white">
+          <div className=" bg-[#9e793c] px-20 py-7 text-white">
              <ul className='flex items-center justify-center  cursor-pointer font-medium text-sm md:text-[16px]'>
              <li onClick={() => handleCategoryChange('All')} className='mx-3 md:mx-9' >All</li>
              <li  >|</li>
@@ -30,7 +30,7 @@ export const MenuItems = () => {
               <li >|</li>
               <li onClick={() => handleCategoryChange('Food')} className='mx-3 md:mx-9'>Food</li>
               <li >|</li>
-              <li onClick={() => handleCategoryChange('ReadyToEat')}className='mx-3 md:mx-9'>RTE</li>
+              <li onClick={() => handleCategoryChange('ReadyToEat')}className='mx-3 md:mx-9'>Rte</li>
              </ul>
           </div>
           

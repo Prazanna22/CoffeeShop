@@ -12,7 +12,7 @@ export default ({ Product }) => {
   const navigate = useNavigate();
   return (<>
     
-    <div className=" px-10 md:px-20  bg-[#ededed89] py-10  ">
+    <div className=" px-10 md:px-20  bg-[#ededed89] py-10  mb-10">
     <h1 className='font-bold text-[#a7782b] md:text-3xl mb-5 text-lg text-center md:text-left '>Recent Launches!</h1>
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -33,7 +33,7 @@ export default ({ Product }) => {
         {Product.map(product => (
 
           <SwiperSlide key={product.id}>
-            <div className=" px-5">
+            <div className=" px-5 ">
               <div className=" mb-12 shadow-[0_8px_30px_rgb(0,0,0,0.12)]">
                 <div className="flex items-center flex-col md:flex-row  bg-[#ffffff] justify-between p-5 w-full gap-3 rounded-lg">
                   <div className=" w-full md:w-1/3 ">
@@ -43,8 +43,8 @@ export default ({ Product }) => {
                     <img src={product.veg} alt="veg status" className='w-6 h-6' />
                     <h1 className='font-medium text-md lg:text-md truncate my-2'>{product.name}</h1>
                     <div className='flex justify-between  mt-5'>
-                      <p className='font-medium text-md '>₹{product.price}</p>
-                      <button className='py-1 px-2 md:px-4 text-sm font-semibold text-white bg-[#b2cd67] rounded-full' onClick={() => { navigate("/menu") }}>View Item</button>
+                      <p className='font-normal text-md '>₹{product.price}</p>
+                      <button className='py-1 px-2 md:px-4 text-sm font-semibold text-white bg-[#a3c544] rounded-full' onClick={() => { navigate("/menu") }}>View Item</button>
                     </div>
                   </div>
                 </div>

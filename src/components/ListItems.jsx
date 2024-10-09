@@ -10,7 +10,7 @@ export const ListItems = () => {
 
     return (
         <>
-            <div className="px-10 md:px-20 lg:py-10">
+            <div className="px-10 md:px-20 lg:py-20">
                 <h1 className='font-bold text-[#a7782b]  md:text-3xl mb-5 text-lg  my-10 text-center md:text-left'>Handcrafted Curations</h1>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
                     <div className="flex flex-col justify-center items-center">

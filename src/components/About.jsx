@@ -4,7 +4,7 @@ export const About = () => {
 
     return (
         <>
-            <div className="py-7 bg-[#daa859] "><p className='mx-10 md:mx-20 text-white font-semibold text-xl'>About Us</p></div>
+            <div className="py-7 bg-[#9e793c] "><p className='mx-10 md:mx-20 text-white font-semibold text-xl'>About Us</p></div>
             <div className="px-10 md:px-20 my-5 text-justify">
                 <h1 className='text-2xl font-bold my-5' >Our Heritage</h1>
 

@@ -50,7 +50,7 @@ export const Cart = () => {
                                 <div className="flex gap-3 p-5">
                                     <button onClick={() => increase(item.id)} className='font-bold text-3xl mx-3'>+</button>
                                     <button onClick={() => decrease(item.id)} className='font-bold text-3xl mx-3'>-</button>
-                                    <button onClick={() => removeFromCart(item.id)} className='font-medium bg-red-600 px-4 rounded-full text-sm text-white ml-6'>Remove</button>
+                                    <button onClick={() => removeFromCart(item.id)} className='font-medium bg-[#dd2626] px-4 rounded-full text-sm text-white ml-6'>Remove</button>
                                 </div>
                             </div>
                         ))}
@@ -61,7 +61,7 @@ export const Cart = () => {
            
             <div className="sticky bottom-0 w-full py-5 bg-white flex justify-between items-center border-t border-gray-300">
                 <h2 className="text-md md:text-lg font-semibold">Total: ₹{totalPrice.toFixed(2)}</h2>
-                <button className="px-6 py-1 bg-[#b2cd67] text-white rounded-full" onClick={()=>message(cart)}>Order</button>
+                <button className="px-6 py-1 bg-[#a3c544] text-white rounded-full" onClick={()=>message(cart)}>Order</button>
             </div>
         </div>
     );

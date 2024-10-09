@@ -60,7 +60,7 @@ export const Order = ({ Product,category }) => {
                             <div className="flex justify-between items-center mt-3">
                                 <p className='font-semibold text-md'>₹{product.price}.00</p>
                                 <button
-                                    className='py-1 px-2 md:px-4 text-sm font-semibold text-white bg-[#b2cd67] rounded-full'
+                                    className='py-1 px-2 md:px-4 text-sm font-medium text-white bg-[#a3c544] rounded-full'
                                     onClick={() => addedItems[product.id] ? handleViewCart() : handleAddToCart(product)}
                                 >
                                     {addedItems[product.id] ? 'View Item' : 'Add Item'}
