@@ -12,7 +12,7 @@ export default ({ Product }) => {
   const navigate = useNavigate();
   return (<>
     
-    <div className=" px-10 md:px-20  bg-[#ededed89] py-10  mb-10">
+    <div className=" px-10 md:px-20  bg-[#ededed89] py-10  mb-10 lg:mb-20">
     <h1 className='font-bold text-[#a7782b] md:text-3xl mb-5 text-lg text-center md:text-left '>Recent Launches!</h1>
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}

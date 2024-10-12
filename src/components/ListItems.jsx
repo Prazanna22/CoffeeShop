@@ -10,7 +10,7 @@ export const ListItems = () => {
 
     return (
         <>
-            <div className="px-10 md:px-20 lg:py-20">
+            <div className="px-10 md:px-20 pb-10 lg:pb-20">
                 <h1 className='font-bold text-[#a7782b]  md:text-3xl mb-5 text-lg  my-10 text-center md:text-left'>Handcrafted Curations</h1>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
                     <div className="flex flex-col justify-center items-center">
@@ -26,7 +26,7 @@ export const ListItems = () => {
                         <h1 className='text-black font-medium'>Drinks</h1>
                     </div>
                     <div className="flex flex-col justify-center items-center">
-                        <img src={readytoeat} alt="" className='w-24 md:w-32my-5 rounded-full' onClick={() => { navigate('/menu') }} />
+                        <img src={readytoeat} alt="" className='w-24 md:w-32 my-5 rounded-full' onClick={() => { navigate('/menu') }} />
                         <h1 className='text-black font-medium'>ReadyToEat</h1>
                     </div>
                 </div>

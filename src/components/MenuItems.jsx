@@ -21,7 +21,7 @@ export const MenuItems = () => {
     return (
       <div className=" ">
           <div className=" bg-[#9e793c] px-20 py-7 text-white">
-             <ul className='flex items-center justify-center  cursor-pointer font-medium text-sm md:text-[16px]'>
+             <ul className='flex items-center justify-center  cursor-pointer font-medium text-sm md:text-[14px] uppercase'>
              <li onClick={() => handleCategoryChange('All')} className='mx-3 md:mx-9' >All</li>
              <li  >|</li>
               <li onClick={() => handleCategoryChange('BestSeller')} className='mx-3 md:mx-9'>Bestseller</li>
@@ -30,7 +30,7 @@ export const MenuItems = () => {
               <li >|</li>
               <li onClick={() => handleCategoryChange('Food')} className='mx-3 md:mx-9'>Food</li>
               <li >|</li>
-              <li onClick={() => handleCategoryChange('ReadyToEat')}className='mx-3 md:mx-9'>Rte</li>
+              <li onClick={() => handleCategoryChange('ReadyToEat')}className='mx-3 md:mx-9 '>Rte</li>
              </ul>
           </div>
           

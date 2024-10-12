@@ -23,13 +23,9 @@ export const Home = () => {
       </div>
      
 
-      <div className="discover">
-        <div className='px-10 md:px-20 my-20 py-5 text-[61px] text-center sm:text-[125px] md:text-[130px] lg:text-[190px] xl:text-[135px]'>
-          <h1>discover the real</h1>
-        </div>
-      </div>
+     
       <HomeSwiper Product={filter} />
-      <div className="  py-10 ">
+      <div className="pb-10 lg:pb-20 ">
         <div className="grid grid-cols-1 md:flex justify-center gap-10 px-10 md:px-20">
           <div className="  md:w-1/3 flex justify-center ">
             <img src={kk} alt="" className='w-96  rounded-t-full md:rounded-t-none md:rounded-b-full' />
