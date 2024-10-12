@@ -36,7 +36,7 @@ export const Cart = () => {
                                 <div className="flex md:items-center gap-5 p-5">
                                     <img src={item.image} alt={item.name} className="w-16" />
                                     <div className="md:ml-4">
-                                        <h2 className="text-sm md:text-lg font-semibold">{item.name}</h2>
+                                        <h2 className="text-sm md:text-[15px] my-1 font-medium">{item.name}</h2>
                                         <div className="flex items-center">
                                             <label htmlFor="" className='text-sm'>Price : </label>
                                             <p className="text-sm font-semibold my-1 mx-1"> ₹ {item.price}</p>
@@ -48,9 +48,9 @@ export const Cart = () => {
                                     </div>
                                 </div>
                                 <div className="flex gap-3 p-5">
-                                    <button onClick={() => increase(item.id)} className='font-bold text-3xl mx-3'>+</button>
-                                    <button onClick={() => decrease(item.id)} className='font-bold text-3xl mx-3'>-</button>
-                                    <button onClick={() => removeFromCart(item.id)} className='font-medium bg-[#dd2626] px-4 rounded-full text-sm text-white ml-6'>Remove</button>
+                                    <button onClick={() => increase(item.id)} className='font-medium text-3xl mx-3'>+</button>
+                                    <button onClick={() => decrease(item.id)} className='font-medium text-3xl mx-3'>-</button>
+                                    <button onClick={() => removeFromCart(item.id)} className='font-medium bg-[#d02626] px-4 rounded-full text-sm text-white ml-6'>Remove</button>
                                 </div>
                             </div>
                         ))}
