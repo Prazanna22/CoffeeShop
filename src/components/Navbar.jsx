@@ -17,7 +17,7 @@ export const Navbar = () => {
     return (
         <>
             <nav className="bg-white shadow-sm sticky top-0 z-10">
-                <div className="px-2 sm:px-10 lg:px-20 flex justify-between items-center py-2 ">
+                <div className="px-5 sm:px-10 lg:px-20 flex justify-between items-center py-2 ">
 
                     <div className="hidden sm:flex items-center gap-12">
                         <img src={logo3} alt="Website Logo" className='w-16 md:w-16' onClick={() => { navigate('/') }} />
