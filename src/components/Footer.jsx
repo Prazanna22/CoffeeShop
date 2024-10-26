@@ -6,7 +6,7 @@ export const Footer = () => {
             {/* career */}
             <div className=" px-10 md:px-20 bg-[#ebebeb] mt-10 text-black">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 text-sm font-normal text-left sm:text-left">
-                    <div className="flex justify-start md:justify-center md:block "><img src={logo3} alt="" className='w-40 my-5' /></div>
+                    <div className="flex justify-start md:justify-center md:block "><img src={logo3} alt="" className='w-24 md:w-40  my-5 md:my-5' /></div>
                     <div className="py-5 px-3 ">
                         <p className='my-5 cursor-pointer text-lg font-bold '>About US</p>
                         <p className='my-5 cursor-pointer'>Our Heritage</p>

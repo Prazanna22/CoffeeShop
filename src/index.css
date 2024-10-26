@@ -47,17 +47,3 @@ body {
 }
 
 
-.discover {
-  background-color: #000;
-  background-image: url('./assets/other/bean.jpg');
-  background-repeat: none;
-  background-position: center;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin: 20px 0;
-  font-weight:900;
-  background-size: cover;
-  -webkit-font-smoothing: antialiased;
-  text-transform: uppercase;
-
-}
