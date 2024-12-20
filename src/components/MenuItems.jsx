@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Product } from '../Products/Product';
+import Product from "../Products/Product.json";
 import { Order } from './Order';
 
 export const MenuItems = () => {

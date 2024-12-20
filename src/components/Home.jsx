@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeSwiper from './HomeSwiper'
-import { Product } from '../Products/Product'
+import Product from '../Products/Product.json'
 import { useState } from 'react';
 import kk from '../assets/other/kk.jpg'
 import { useNavigate } from 'react-router-dom';
@@ -16,14 +16,13 @@ export const Home = () => {
 
   const navigate = useNavigate();
 
+  
+
   return (
     <>
       <div className="bg-[#9e793c] px-10 md:px-20 py-7">
         <h1 className='lg:font-bold text-xl font-semibold text-white lg:text-3xl'>Durzan Coffee</h1>
       </div>
-     
-
-     
       <HomeSwiper Product={filter} />
       <div className="pb-10 lg:pb-20 ">
         <div className="grid grid-cols-1 md:flex justify-center gap-10 px-10 md:px-20">

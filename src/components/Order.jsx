@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useCart } from '../context/CartContext';
 import { useNavigate } from 'react-router-dom';
+import img1 from '../assets/all/1.jpg';
 
 
 
@@ -9,6 +10,11 @@ export const Order = ({ Product,category }) => {
     const [addedItems, setAddedItems] = useState({});
     const [selectedProduct, setSelectedProduct] = useState(null);
     const navigate = useNavigate();
+    //console.log(Product.image);
+    Product.forEach(product => {
+        console.log(product.image);
+    });
+    
 
     const handleAddToCart = (product) => {
         addToCart(product);
