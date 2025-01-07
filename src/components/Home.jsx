@@ -2,7 +2,8 @@ import React from 'react'
 import HomeSwiper from './HomeSwiper'
 import Product from '../Products/Product.json'
 import { useState } from 'react';
-import kk from '../assets/other/kk.jpg'
+//import kk from '../assets/other/kk.jpg'
+import kk from '/assets/other/kk.jpg'
 import { useNavigate } from 'react-router-dom';
 import { Footer } from './Footer';
 import { ListItems } from './ListItems';

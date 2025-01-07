@@ -1,5 +1,5 @@
 import React from 'react'
-import promotion from '../assets/other/promotion.jpg'
+import promotion from '/assets/other/promotion.jpg'
 export const Promotion = () => {
   return (
     <>

@@ -1,8 +1,8 @@
 import React from 'react'
-import food from '../assets/all/Food.jpg'
-import java from '../assets/all/java.jpg'
-import readytoeat from '../assets/all/ReadyToEat.jpg'
-import drinks from '../assets/all/Drinks.jpg'
+import food from '/assets/all/Food.jpg'
+import java from '/assets/all/java.jpg'
+import readytoeat from '/assets/all/ReadyToEat.jpg'
+import drinks from '/assets/all/Drinks.jpg'
 import { useNavigate } from 'react-router-dom'
 export const ListItems = () => {
     const navigate = useNavigate();

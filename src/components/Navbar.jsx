@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import shoppingcart from '../assets/other/shopping-cart.png';
-import avatar from '../assets/other/avatar.png';
-import logo3 from '../assets/other/logo3.png';
+import shoppingcart from '/assets/other/shopping-cart.png';
+import avatar from '/assets/other/avatar.png';
+import logo3 from '/assets/other/logo3.png';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 export const Navbar = () => {
