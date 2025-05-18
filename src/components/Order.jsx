@@ -88,7 +88,7 @@ export const Order = ({ Product,category }) => {
                                 <img src={selectedProduct.veg} className='w-7' />
                                 <h5 className='font-bold text-xl md:text-4xl my-3'>{selectedProduct.name}</h5>
                                 <span className='font-normal text-sm md:text-sm '>{selectedProduct.kcal}</span>
-                                <p className='font-normal text-sm md:text-md my-3'>{selectedProduct.discription}</p>
+                                <p className='font-normal text-sm md:text-md my-3 leading-7'>{selectedProduct.description}</p>
                                 <div className="">
                                     <h6 className='font-semibold text-md md:text-xl my-5'>₹ {selectedProduct.price}.00 </h6>
                                     
